@@ -17,8 +17,8 @@ void solve() {
     for( int i=0 ; i<k ; ++i ){
         cin >> whites[i].first >> whites[i].second ; 
     }
-    set<ll> s1 ; // rows
-    set<ll> s2 ; // cols
+    set<ll> s1 ; 
+    set<ll> s2 ; 
     for( int i=0 ; i<k ; ++i ){
         s1.insert( whites[i].first ) ; 
         s2.insert( whites[i].second ) ; 
@@ -26,11 +26,9 @@ void solve() {
     
     // Add boundaries 
     s1.insert(0);
-    // s1.insert(n) ; 
     s1.insert(n+1);
     s2.insert(0);
     s2.insert(m+1) ; 
-    // s2.insert(m);
     
     vector<ll> rows( s1.begin() , s1.end() ) ; 
     vector<ll> cols( s2.begin() , s2.end() ) ; 

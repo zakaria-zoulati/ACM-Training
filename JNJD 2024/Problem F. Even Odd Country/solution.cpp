@@ -13,12 +13,12 @@ using ll = long long;
 using ld = long double;
 
 void dfs( int node , vector<vector<int>> &edges , vector<bool> &seen , int curr , vector<int> &rep
- , vector<int> &vals , int v ){
+ , vector<int> &vals  ){
     seen[node] = true ; 
     rep[node] = curr ; 
     for( int i : edges[node] ){
-        if( !seen[i] && vals[i] % 2 == v ){
-             dfs( i , edges, seen , curr , rep , vals , v ) ;
+        if( !seen[i] && vals[i] == vals[node] ){
+             dfs( i , edges, seen , curr , rep , vals ) ;
         }
     }
 }
@@ -30,7 +30,8 @@ void solve(){
     int m ; cin >> m ; 
     vector<int> vals(n+1) ; 
     for( int i=1 ; i<=n ; ++i ){
-        int a ; cin >> vals[i] ; 
+        int a ; cin >> a ; 
+        vals[i] = a % 2 ; 
     }
     vector<vector<int>> edges(n+1) ; 
     while( m-- ){
@@ -44,7 +45,7 @@ void solve(){
     vector<int> rep( n+1,-1 ) ; 
     for( int i=1 ; i<=n ; ++i ){
         if( !seen[i] ){
-            dfs( i , edges,  seen , curr , rep , vals , vals[i]%2 ) ;
+            dfs( i , edges,  seen , curr , rep , vals ) ;
             curr++ ; 
         }
     }

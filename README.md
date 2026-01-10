@@ -12,3 +12,6 @@ Here are the contests currently available in the repository:
 - **MCPC 2025**  
   🔗 https://codeforces.com/group/Rilx5irOux/contest/636870
 
+- **CodeEMI 2025**  
+  🔗 https://codeforces.com/gym/105845
+

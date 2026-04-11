@@ -15,3 +15,7 @@ Here are the contests currently available in the repository:
 - **CodeEMI 2025**  
   🔗 https://codeforces.com/gym/105845
 
+
+- **Game of Codes 2025**  
+  🔗 https://codeforces.com/gym/591392
+

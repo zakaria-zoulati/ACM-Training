@@ -16,7 +16,7 @@ void solve(){
     double coeff = ( pi - 2*sin(a*toRad)*sin(b*toRad)*sin(c*toRad) ) ; 
     double ans = sqrt( k / coeff ) ; 
 
-    cout << fixed << setprecision( 4 ) << ans << '\n'; 
+    cout << fixed << setprecision(4) << ans << '\n'; 
 }
 
 

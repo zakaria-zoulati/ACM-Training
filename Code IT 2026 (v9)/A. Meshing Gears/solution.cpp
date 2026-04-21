@@ -60,9 +60,7 @@ void solve(){
         int s = signs[a] * signs[b] ; 
 
         cout << s*t2 << "/" << t1 << '\n' ; 
-
     }
-
 }
 
 int main() {

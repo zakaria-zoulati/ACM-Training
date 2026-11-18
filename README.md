@@ -1,7 +1,7 @@
 # ACM Training
 
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square&logo=c%2B%2B)
-![Contests](https://img.shields.io/badge/Contests-13-brightgreen?style=flat-square)
+![Contests](https://img.shields.io/badge/Contests-14-brightgreen?style=flat-square)
 ![Category](https://img.shields.io/badge/Category-Competitive%20Programming-orange?style=flat-square)
 
 Solutions for various competitive programming contests, organized by category.
@@ -15,6 +15,7 @@ Solutions for various competitive programming contests, organized by category.
 Regional ICPC-style contests from Arab countries.
 
 - ACPC 2018 (Arab Collegiate Programming Contest)
+- ACPC 2025 (Africa & Arab Collegiate Programming Championship)
 - MCPC 2025 (Moroccan)
 - LCPC 2025 (Lebanese)
 - PCPC 2025 (Palestinian)
